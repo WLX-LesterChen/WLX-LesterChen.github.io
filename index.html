@@ -2,123 +2,28 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html"; charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="css/debug_layout.css">
-        <link rel="stylesheet" type= "text/css" href="css/navBar.css">
-        <link rel="stylesheet" type="text/css" href="css/infoBar.css">
-        <link rel="stylesheet" type="text/css" href="css/content.css">
-        <link rel="stylesheet" type="text/css" href="css/discussion.css">
+        <link rel="stylesheet" type="text/css" href="css/login.css">    
     </head>
-        
-    <body bgcolor="#FAFAFA" class="main_body">
-        <!-- 导航栏 -->
-        <div class="navBar">
-            <a href="http://www.baidu.com">首页</a>
-            <a href="http://www.baidu.com">博客</a>
-            <a href="http://www.baidu.com">问答</a>
-            <a href="http://www.baidu.com">关于</a>
-        </div>
 
-        <div style="position: absolute; margin-top: 35px; margin-left: 240px;">
-            <!-- 个人信息栏 -->
-            <div class="infoBar">
+    <body background="res/img/登录背景2.png">
+        <div class="login_main">
                 <table>
                     <tr>
-                        <td><img src="res/img/头像.jpg" alt="" id="infoBar_head_pic"></td>
-                        <td>
-                            <font id="infoBar_name_text">LesterChen</font>
-                            <br><br>
-                            <a href="" id="infoBar_privMsg_key">私信</a>
-                            <a href="" id="infoBar_focusOn_key">关注</a>
-                        </td>
+                        <td colspan="2"><font style="font-weight: bold;">My Blog</font></td>
+                    </tr>
+                    <tr id="login_user_num">
+                        <td><font>账号</font></td>
+                        <td><textarea  placeholder="请输入账号" rows="1" name="" id="login_user_num_val"></textarea></td>
+                    </tr>
+                    <tr id="login_pwd_num" >
+                        <td><font>密码</font></td>
+                        <td><textarea  placeholder="请输入密码" rows="1" name="" id="login_pwd_num_val"></textarea></td>
                     </tr>
                     <tr>
-                        <table id="infoBar_results">
-                            <tr>
-                                <td>原创</td>
-                                <td>粉丝</td>
-                                <td>获赞</td>
-                                <td>评论</td>
-                            </tr>
-                            <tr id="infoBar_num">
-                                <td>999</td>
-                                <td>999</td>
-                                <td>999</td>
-                                <td>999</td>
-                            </tr>
-                        </table>
-                    </tr>
-                    <tr>
-                        <!-- 广告区域 -->
-                        <td>
-                            <div id="infoBar_advert">
-                                <img src="res/img/广告1.jpg" alt="" class="infoBar_advert_img">
-                                <img src="res/img/广告2.jpeg" alt="" class="infoBar_advert_img">
-                                <img src="res/img/广告3.jpg" alt="" class="infoBar_advert_img">
-                                <img src="res/img/广告4.jpg" alt="" class="infoBar_advert_img">
-                            </div>
-                        </td>
+                        <td colspan="2"  id="login_bt_td"><a href="javascript:void(0)" onclick="loginOnClick()"  id="login_bt">登录</a></td>
                     </tr>
                 </table>
             </div>
-
-            <div style="position: absolute; margin-left: 255px; width: 800px;">
-                <!-- 博文内容栏 -->
-                <div class="content">
-                    <table id="content_main_table">
-                        <tr>
-                            <td id="content_title_head_text">
-                                
-                            </td>
-                        </tr>
-                        <tr>
-                            <table id="content_title_info">
-                                <tr>
-                                    <td><font id="content_create_time">2019-10-26 11:10:00</font></td>
-                                    <td><a href="http://www.baidu.com" id="content_writer_info">Lesterchen</a></td>
-                                    <td><font>阅读数</font><font id="content_read_num">9999+</font></td>
-                                    <td><a href="http://www.baidu.com">更多</a></td>
-                                </tr>
-                            </table>
-                        </tr>
-                        <tr>
-                            <td><hr></td>
-                        </tr>
-                        <tr>
-                            <table id="content_body_table">
-                                <tr>
-                                    <td>
-                                        <font>版权声明：本文为博主原创文章，遵循<a href="">CC 4.0 BY-SA</a></font>
-                                        <font>版权协议，转载请附上原文出处链接和本声明。<br>本文链接：<a href="https://www.baidu.com">https://www.baidu.com</a></font>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td><font>这是我的第一个博客，使用了HTML、CSS、JavaScript制作！</font></td>
-                                </tr>
-                            </table>
-                        </tr>
-                    </table>
-                </div>
-                <!-- 评论区 -->
-                <div class="discussion">
-                    <table>
-                        <tr>
-                            <td><img src="res/img/广告1.jpg" alt="" id="discussion_head_pic_style"></td>
-                            <td>
-                                <textarea placeholder="想对作者说点什么" name="discussion_input" 
-                                id="discussion_input" cols="30" rows="10" onclick="onclickDiscussInput()"></textarea>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td><button id="publish_discuss_bt" onclick="publishDiscuss()">发表评论</button></td>
-                        </tr>
-                    </table>
-                    <table id="discussion_list">
-                    </table>
-                </div>
-            </div>
-        </div>
     </body>
-    <script src="js/infoBar.js"></script>
-    <script src="js/content.js"></script>
-    <script src="js/discussion.js"></script>
+    <script src="js/login.js"></script>
 </html>

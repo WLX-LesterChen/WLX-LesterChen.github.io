@@ -16,7 +16,7 @@ function loginOnClick(){
     }
 
     var loginBt = document.getElementById("login_bt");
-    loginBt.href = "index.html";
+    loginBt.href = "login.html";
     window.alert("登录成功！");
     clearLoginInputInfo();
     return ;
