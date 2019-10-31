@@ -1,0 +1,188 @@
+.discussion{
+    /*设置边框*/
+    border:1px ridge #E6E6E6;
+    margin-top: 3px;
+    
+}
+
+.discussion table{
+    position: relative;
+    font-family: Microsoft YaHei; /* 设置字体 */
+    
+    margin-top: 3px;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.discussion table tr{
+    vertical-align: top;
+}
+
+.discussion #discussion_head_pic_style{
+    width: 30px;
+    height: 30px;
+
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.discussion #discussion_input{
+    width: 716px;
+    height: 70px;
+
+    margin-left: 10px;
+    margin-right: 18px;
+
+    border-radius: 3px;
+
+    resize:none;    /*去除谷歌textarea右下角的小三角*/
+}
+
+.discussion #publish_discuss_bt{
+    position: absolute;
+    margin-left: 688px;
+    visibility: hidden;
+    
+    /* 设置字体 */
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    background-color: #CA0C16;
+
+    /* 设置边框 */
+    border-radius: 5px;
+    border:1px solid #CA0C16;
+
+    outline: none;  /*去掉外部的点击边缘蓝色线*/
+
+    /* 设置内边距 */
+    padding-top: 2px;  
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*按键触摸和点击颜色*/
+.discussion #publish_discuss_bt:hover, .discussion #publish_discuss_bt:active{
+    background-color: #F21F2B; 
+}
+
+
+.discussion #discussion_list{
+    margin-top: 30px;
+    width: 100%;
+}
+
+.discussion #discuss_floor_headPic{
+    width: 30px;
+    height: 30px;
+}
+
+.discussion #discuss_floor_headPic img{
+
+    width: 30px;
+    height: 30px;
+
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.discussion #discuss_floor_name{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.discussion #discuss_floor_time{
+    font-size: 8px;
+    color: lightgray;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.discussion #discuss_floor_num{
+    font-size: 8px;
+    color: lightgray;
+}
+
+.discussion #discuss_floor_content{
+    font-size: 14px;
+}
+
+/*举报按键*/
+.discussion #discuss_bt_accuse{
+    position: absolute;
+    margin-left: 430px;
+    /* visibility: hidden; */
+    
+    /* 设置字体 */
+    font-size: 12px;
+    text-align: center;
+    color: #3399ED;
+
+    outline: none;  /*去掉外部的点击边缘蓝色线*/
+
+    /* 设置内边距 */
+    padding-top: 2px;  
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*按键触摸和点击颜色*/
+.discussion #discuss_bt_accuse:hover, .discussion #discuss_bt_accuse:active{
+    color: #94B7EB;
+}
+
+/*回复按键*/
+.discussion #discuss_bt_reply{
+    position: absolute;
+    margin-left: 465px;
+    /* visibility: hidden; */
+    
+    /* 设置字体 */
+    font-size: 12px;
+    text-align: center;
+    color: #3399ED;
+
+    outline: none;  /*去掉外部的点击边缘蓝色线*/
+
+    /* 设置内边距 */
+    padding-top: 2px;  
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*按键触摸和点击颜色*/
+.discussion #discuss_bt_reply:hover, .discussion #discuss_bt_reply:active{
+    color: #94B7EB;
+}
+
+/*点赞按键*/
+.discussion #discuss_img_giveLike{
+    position: absolute;
+    margin-left: 540px;
+
+    width: 20px;
+    height: 20px;
+}
+
+
+/*分割线*/
+.discussion #discuss_cutLine{
+    border-bottom:1px dashed  lightgray;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.discussion a:link, .discussion a:visited{
+    color: rgb(161, 204, 240);        /*链接字体颜色*/
+    background: none;     /*链接背景颜色*/
+    text-decoration: none;  /*去掉下划线*/
+}
+
+

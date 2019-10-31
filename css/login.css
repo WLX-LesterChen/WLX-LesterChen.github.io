@@ -1,0 +1,66 @@
+
+.login_main{
+    float: left;
+    font-family: Microsoft YaHei; /* 设置字体 */
+    text-align: center;
+    white-space: nowrap;    /*只允许出现一行*/
+
+    overflow: hidden;
+    
+    font-size: 14px;
+
+    margin-top: 250px;
+    margin-left: 650px;
+}
+
+.login_main table{
+    border:1px ridge black;
+    padding: 4px;
+}
+
+
+.login_main #login_user_num textarea{
+    margin-top: 2px;
+    width: 150px;
+
+    resize:none;    /*去除谷歌textarea右下角的小三角*/
+}
+
+.login_main #login_pwd_num textarea{
+    margin-top: 2px;
+    width: 150px;
+
+    resize:none;    /*去除谷歌textarea右下角的小三角*/
+}
+
+.login_main #login_bt_td{
+    font-weight: bold;
+    border:1px ridge black;
+}
+
+
+.login_main #login_bt:link, .login_main #login_bt:visited {
+    background: none;
+
+    text-decoration: none;  /*去掉下划线*/
+
+    /* 设置字体 */
+    font-size: 12px;
+    text-align: center;
+    color: black;
+
+    /* 设置边框 */
+    border-radius: 5px;
+    border:1px solid #DEE1E6;
+
+    /* 设置内边距 */
+    padding-top: 2px;  
+    padding-bottom: 2px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+/*链接触摸和点击颜色*/
+.login_main #login_bt:hover, .login_main #login_bt:active{
+    background-color: #F5F6F7; 
+}

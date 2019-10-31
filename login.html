@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html"; charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/login.css">    
+    </head>
+
+    <body background="res/img/登录背景2.png">
+        <div class="login_main">
+                <table>
+                    <tr>
+                        <td colspan="2"><font style="font-weight: bold;">My Blog</font></td>
+                    </tr>
+                    <tr id="login_user_num">
+                        <td><font>账号</font></td>
+                        <td><textarea  placeholder="请输入账号" rows="1" name="" id="login_user_num_val"></textarea></td>
+                    </tr>
+                    <tr id="login_pwd_num" >
+                        <td><font>密码</font></td>
+                        <td><textarea  placeholder="请输入密码" rows="1" name="" id="login_pwd_num_val"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"  id="login_bt_td"><a href="javascript:void(0)" onclick="loginOnClick()"  id="login_bt">登录</a></td>
+                    </tr>
+                </table>
+            </div>
+    </body>
+    <script src="js/login.js"></script>
+</html>

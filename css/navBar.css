@@ -1,0 +1,30 @@
+
+.navBar{
+    text-align: center; /*内容居中*/
+    font-family: Microsoft YaHei; /* 设置字体 */
+    /*设置边框*/
+    border-style: none;
+    border-bottom-style: ridge;
+    border-bottom-color: #E6E6E6;
+    border-bottom-width: 3px;
+
+    position: relative;
+}
+
+.navBar a:link, .navBar a:visited{
+    width: 120px;       /*链接块的宽度*/
+    color: black;        /*链接字体颜色*/
+    background-color:#FAFAFA;     /*链接背景颜色*/
+    /*内边距*/
+    padding-top: 0px;   
+    padding-bottom: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    text-decoration: none;  /*去掉下划线*/
+}
+
+/*链接触摸和点击颜色*/
+.navBar a:hover, .navBar a:active{
+    background-color: gainsboro;  
+}

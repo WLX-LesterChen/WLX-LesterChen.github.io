@@ -1,0 +1,136 @@
+
+.infoBar{
+    position: absolute;
+    font-family: Microsoft YaHei; /* 设置字体 */
+    text-align: center;
+
+    overflow: hidden;
+}
+
+.infoBar table{
+    /*设置边框*/
+    border:1px ridge #E6E6E6;
+}
+
+
+.infoBar #infoBar_head_pic{
+    padding: 4px;
+    width: 80px;
+    height: 80px;
+
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.infoBar #infoBar_name_text{
+    background: none;
+    color: black;
+    
+    margin-left: 29px;
+    margin-right: 29px;
+}
+
+.infoBar #infoBar_privMsg_key:link, .infoBar #infoBar_privMsg_key:visited {
+    background: none;
+
+    text-decoration: none;  /*去掉下划线*/
+
+    /* 设置字体 */
+    font-size: 12px;
+    text-align: center;
+    color: Orange;
+
+    /* 设置边框 */
+    border-radius: 5px;
+    border:1px solid Orange;
+
+    /* 设置内边距 */
+    padding-top: 2px;  
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    /* 设置外边距 */
+    /* margin-left: 7px;
+    margin-right: 3px; */
+}
+
+/*链接触摸和点击颜色*/
+.infoBar #infoBar_privMsg_key:hover, .infoBar #infoBar_privMsg_key:active{
+    background-color: #FFF6E8; 
+}
+
+
+.infoBar #infoBar_focusOn_key:link, .infoBar #infoBar_focusOn_key:visited {
+    background: none;
+
+    text-decoration: none;  /*去掉下划线*/
+
+    /* 设置字体 */
+    font-size: 12px;
+    text-align: center;
+    color: red;
+
+    /* 设置边框 */
+    border-radius: 5px;
+    border:1px solid red;
+
+    /* 设置内边距 */
+    padding-top: 2px;  
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    /* 设置外边距 */
+    /* margin-left: 7px;
+    margin-right: 29px; */
+}
+
+/*链接触摸和点击颜色*/
+.infoBar #infoBar_focusOn_key:hover, .infoBar #infoBar_focusOn_key:active{
+    background-color: #FDE3E4; 
+}
+
+.infoBar #infoBar_results{
+    margin-top: 3px;
+    padding-left: 13px;
+    padding-right: 13px;
+
+    white-space: nowrap;    /*只允许出现一行*/
+}
+
+.infoBar #infoBar_results tr{
+    text-align: center;
+}
+
+.infoBar #infoBar_results td{
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 14px;
+}
+
+.infoBar #infoBar_results #infoBar_num{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+.infoBar #infoBar_advert{
+    /*设置边框*/
+    border:1px ridge #E6E6E6;
+
+    margin-top: 3px;
+    
+    width: 233px;
+    height: 233px;
+
+    padding: 4px;
+    overflow: hidden;
+}
+
+.infoBar .infoBar_advert_img{
+    position: absolute;
+    width: 233px;
+    height: 233px;
+    /* display: none; */
+}
